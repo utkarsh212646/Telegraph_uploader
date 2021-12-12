@@ -1,16 +1,16 @@
 {
     "name": "Telegra.ph Uploader Bot",
     "description": "A bot that can upload medias to Telegra.ph",
-    "logo": "https://telegra.ph/file/b69c591d9667d187249c0.jpg",
+    "logo": "https://telegra.ph/file/2a77af4fda85d44197754.jpg",
     "keywords": [
         "Telegra.ph",
         "Uploader",
         "Telegram Bot",
-        "Benchamxd"
+        "ALPHA BOTS"
     ],
-    "website": "https://benchamxd.me",
-    "repository": "https://github.com/Benchamxd/Telegra.ph-Uploader/",
-    "success_url": "https://telegram.dog/indusbots",
+    "website": "https://t.me/alpha_bot_updates",
+    "repository": "https://github.com/utkarsh212646/Telegraph_uploader",
+    "success_url": "https://telegram.dog/alpha_bot_updates",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
