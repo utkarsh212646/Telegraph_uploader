@@ -1,4 +1,4 @@
-#    This file is part of the ChannelAutoForwarder distribution (https://github.com/Benchamxd/Telegraph-Uploader).
+#    This file is part of the ChannelAutoForwarder distribution (https://github.com/utkarsh212646/Telegraph_uploader).
 #    Copyright (c) 2021 Rithunand
 #    
 #    This program is free software: you can redistribute it and/or modify  
@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
 #    General Public License for more details.
 # 
-#    License can be found in < https://github.com/Benchamxd/Telegraph-Uploader/blob/main/License> 
+#    License can be found in < https://github.com/utkarsh212646/Telegraph_Uploader/blob/main/License> 
 
 import os
 from telegraph import upload_file
@@ -85,8 +85,8 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots'),
-        InlineKeyboardButton('Source Code', url='https://github.com/benchamxd/Telegraph-Uploader')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/alpha_bot_updates'),
+        InlineKeyboardButton('Support', url='http://telegram.me/alpha_bot_support')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
@@ -110,7 +110,7 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/alpha_bot_updates')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
