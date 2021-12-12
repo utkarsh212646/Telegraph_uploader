@@ -95,9 +95,9 @@ async def home(client, message):
         
 im a telegraph Uploader That Can Upload Photo, Video And Gif
         
-Simply send me photo, video or gif to upload to Telegra.ph
+Simply send me photo, video or gif to upload to Telegraph Url
         
-Made With Love By @indusBots</b>""",
+By @alpha_bot_support</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
