@@ -4,7 +4,7 @@ from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
-#UPDATES_CHANNEL = "-1001475839216"
+#UPDATES_CHANNEL = "-1001562171309"
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
 
 async def ForceSub(bot: Client, event: Message):
@@ -15,14 +15,14 @@ async def ForceSub(bot: Client, event: Message):
         fix_ = await ForceSub(bot, event)
         return fix_
     except Exception as err:
-        print(f"Unable to do Force Subscribe to {UPDATES_CHANNEL}\n\nError: {err}\n\nContact Support Group: https://t.me/SDBOTz")
+        print(f"Unable to do Force Subscribe to {UPDATES_CHANNEL}\n\nError: {err}\n\nContact Support Group: https://t.me/alpha_bot_updates")
         return 200
     try:
         user = await bot.get_chat_member(chat_id=(int(UPDATES_CHANNEL) if UPDATES_CHANNEL.startswith("-100") else UPDATES_CHANNEL), user_id=event.from_user.id)
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=event.from_user.id,
-                text="Sorry Dear, You are Banned to use me ☹️\nFeel free to say in our [Support Group](https://t.me/SDBOTz).",
+                text="Sorry Dear, You can't use me😐 if you have to use me please join our updates channel ☺️\nFeel free to say in our [UPDATES CHANNEL](https://t.me/alpha_bot_updates).",
                 parse_mode="markdown",
                 disable_web_page_preview=True,
                 reply_to_message_id=event.message_id
@@ -50,5 +50,5 @@ async def ForceSub(bot: Client, event: Message):
         fix_ = await ForceSub(bot, event)
         return fix_
     except Exception as err:
-        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Support Group: https://t.me/SDBOTz")
+        print(f"Something Went Wrong! Unable to do Force Subscribe.\nError: {err}\n\nContact Updates channel: https://t.me/alpha_bot_updates")
         return 200
