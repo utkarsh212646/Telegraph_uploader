@@ -24,6 +24,13 @@
             "description": "Your API ID from my.telegram.org",
             "value": ""
         }
+    "MUST_JOIN": {
+      "description": "Add username/id of a channel/group",
+      "required": false,
+      "value": ""
+    }
+  }
+}
     },
     "addons": [],
     "buildpacks": [
