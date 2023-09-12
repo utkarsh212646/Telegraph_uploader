@@ -85,19 +85,19 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/alpha_bot_updates'),
-        InlineKeyboardButton('Support', url='http://telegram.me/alpha_bot_support')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/Thealphabotz'),
+        InlineKeyboardButton('Support', url='https://t.me/+n5UitRf-oDpmNzM1')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hey there,
+        text="""<b>Hey Bro ,
         
-im a telegraph Uploader That Can Upload Photo, Video And Gif
+I m a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif to upload to Telegraph Url
         
-By @alpha_bot_support</b>""",
+By @TheAlphaBotz</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -110,12 +110,12 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/alpha_bot_updates')
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/Thealphabotz')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""There Is Nothung To KnowMore,
+        text="""There Is Nothing To Know More,
         
 Just Send Me A Video/gif/photo Upto 5mb.
 
